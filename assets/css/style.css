@@ -1,6 +1,6 @@
 /* ======================= COLORS ======================= */
 
-farben: #efe8d7, #042a5a, #f4c4c4, #282b29, #7d2222, #deb873, #d2d2d2, #388883;
+/* farben: #efe8d7, #042a5a, #f4c4c4, #282b29, #7d2222, #deb873, #d2d2d2, #388883; */
 
 /* ======================== FONTS ======================= */
 
@@ -36,12 +36,16 @@ html {
   border-bottom: 1px solid black;
   padding: 11px 11.5% 14px;
   text-transform: uppercase;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  left: 0;
 }
 
 .section-nav p {
   position: relative;
   font-size: 1.8rem;
-  letter-spacing: -0.1rem;
+  letter-spacing: 0.5rem;
   line-height: 2.451rem;
 }
 
