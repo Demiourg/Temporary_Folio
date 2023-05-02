@@ -56,6 +56,9 @@ header {
 
 .section-temporary {
   margin: 0 10%;
+  display: flex;
+  justify-content: column;
+  align-items: center;
 }
 
 .section-temporary h1 span {
@@ -71,10 +74,10 @@ header {
 }
 
 .section-temporary h1 span hr {
-  width: 19.6 rem;
-  color: #282b29;
-  display: inline-block;
-  margin: 0 4rem 0 4rem;
+  width: 19.6rem;
+  height: 0.2rem;
+  margin: 110px 45px;
+  background-color: #042a5a;
 }
 
 header figure {
@@ -96,4 +99,24 @@ header figure p {
 
 header figure span:first-of-type {
   font-family: athene;
+}
+
+/* ================== MEDIA QUERY AREA ================== */
+
+@media (max-width: 1250px) {
+  .section-temporary h1 span {
+    font.size: 13rem;
+  }
+}
+
+@media (max-width: 850px) {
+  . .section-temporary h1 span {
+    font-sze: 8rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .section-temporary h1 span {
+    font-size: 6rem;
+  }
 }
