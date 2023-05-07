@@ -142,7 +142,7 @@ figure figcaption span {
 .principles {
   display: flex;
   justify-content: flex-end;
-  margin: 0 7% 0 55%;
+  margin: 0 7% 0 51%;
   font-family: open-sans;
   font-weight: 400;
   font-size: 1.6rem;
@@ -180,12 +180,12 @@ figure figcaption span {
 .integrity p:nth-of-type(3) {
   font-size: 1.4rem;
   line-height: 1.8rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.06em;
   text-align: right;
   width: 97px;
   height: 72px;
-  margin: 30px 0 30px
-    /* Wir mssen den Abstand mit Margin ;ber Always und unter Transparency richtig angleichen */;
+  margin: 30px 0 30px 0;
+  /* Wir mssen den Abstand mit Margin ;ber Always und unter Transparency richtig angleichen */
 }
 
 .understanding {
@@ -202,7 +202,7 @@ figure figcaption span {
 .understanding p:nth-of-type(1) {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  letter-spacing: 0.08em;
+  letter-spacing: -0.08em;
   margin: 0 30px 0 0;
 }
 
@@ -210,8 +210,65 @@ figure figcaption span {
   line-height: 4.2rem;
   font-size: 2.1rem;
   letter-spacing: -0.02em;
-  padding: 0 29, 7% 0 0;
+  padding: 0 29.7% 0 0;
   margin: 0 25px 0 0;
+}
+
+.understanding p:nth-of-type(3) {
+  line-height: 1.9rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.06em;
+  text-align: right;
+  width: 97px;
+  height: 72px;
+  margin: 30px 0 30px 0;
+}
+
+.performance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 7% 0 51%;
+  color: #282b29;
+  font-family: open-sans;
+  font-weight: 400;
+  border-bottom: 1px solid #282b29;
+}
+
+.performance p:nth-of-type(1) {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  letter-spacing: -0.08em;
+  margin: 0 30px 0 0;
+}
+
+.performance p:nth-of-type(2) {
+  line-height: 4.2rem;
+  font-size: 2.1rem;
+  letter-spacing: -0.02em;
+  padding: 0 29.7% 0 0;
+  margin: 0 25px 0 0;
+}
+
+.performance p:nth-of-type(3) {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.06em;
+  text-align: right;
+  width: 97px;
+  height: 72px;
+  margin: 30px 0 30px 0;
+}
+
+.circle {
+  width: 17%;
+  margin-top: 50px;
+  margin-left: 80%;
+}
+
+.circle img {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* ================== MEDIA QUERY AREA ================== */
