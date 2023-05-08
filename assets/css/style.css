@@ -261,14 +261,14 @@ figure figcaption span {
 }
 
 .circle {
-  width: 17%;
-  margin-top: 50px;
-  margin-left: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 107px 107px 0 0;
+  padding: 0 0 107px 0;
 }
 
 .circle img {
-  display: flex;
-  justify-content: flex-end;
+  width: 107px;
 }
 
 /* ================== MEDIA QUERY AREA ================== */
