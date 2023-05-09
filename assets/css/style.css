@@ -117,6 +117,11 @@ header {
 
 .release p:nth-of-type(1) {
   margin: 100px 0 50px 8%;
+  font-size: 1.6rem;
+  font-family: open-sans;
+  padding: 100px 8% 0 0;
+  letter-spacing: -0.08em;
+  line-height: 22rem;
 }
 
 .release h2 {
