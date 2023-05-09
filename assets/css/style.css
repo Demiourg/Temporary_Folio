@@ -129,8 +129,8 @@ figure figcaption span {
 }
 
 .text {
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   margin: 0 6.6% 0 60%;
   padding-bottom: 100px;
   font-size: 1.8rem;
@@ -269,6 +269,45 @@ figure figcaption span {
 
 .circle img {
   width: 107px;
+}
+
+/* ==================== SECTION WORKS =================== */
+
+.page-two {
+  background-color: #deb873;
+}
+
+.works {
+  color: #7d2222;
+}
+
+.works p:nth-of-type(1) {
+  font-family: open-sans;
+  text-align: right;
+  padding: 100px 9% 0 0;
+  font-size: 1.6rem;
+  letter-spacing: -0.08rem;
+  line-height: 22rem;
+}
+
+.works h2 {
+  font-size: 16rem;
+  line-height: 20rem;
+  font-family: athene;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.text-two {
+  margin: 15px 810px 0 95px;
+  font-family: open-sans;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  letter-spacing: -0.02em;
+  width: 380px;
+  height: 180px;
 }
 
 /* ================== MEDIA QUERY AREA ================== */
